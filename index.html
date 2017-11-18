@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Personal WebPage</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
+		<style>
+		body{
+			color : white;		
+		}
+		ul {
+		    list-style-type: none;
+		    margin: 0;
+		    padding-right: 100px; 
+		    padding: 0;
+		    overflow: hidden;
+		    background-color: #000000;
+		    font-family: "Courier New", Times, monospace;
+		}
+
+		li {
+		    float: left;
+		}
+
+		li a {
+		    display: block;
+		    color: white;
+		    text-align: center;
+		    padding: 14px 16px;
+		    text-decoration: none;
+		}
+
+		li a: hover {
+		    background-color: #7c0f02;
+		}
+
+		</style>
+	</head>
+
+	<body>
+
+		<ul >
+			<li><a class="active" href="https://www.youtube.com/watch?v=9XmFTADupMc">Trailer</a></li>
+	 		<li><a class="active" href="https://www.tumblr.com/tagged/riverdale-fan-art">Fan Art</a></li>
+	 		<li><a class="active" href="https://www.netflix.com/browse?jbv=80133311&jbp=0&jbr=6">Actual Show</a></li>
+		 
+		</ul>
+
+		<div class="fullscreen-bg">
+		    <video loop muted autoplay poster="images/still-pic.jpg" class="fullscreen-bg__video">
+		       <!--  <source src="video/big_buck_bunny.webm" type="video/webm"> -->
+		        <source src="videos/background-vid.mp4" type="video/mp4">
+		       <!--  <source src="video/big_buck_bunny.ogv" type="video/ogg"> -->
+		    </video>
+		</div>
+
+	</body>
+
+</html>
