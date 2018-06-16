@@ -1,34 +1,10 @@
+
 		body{
 			color : white;
 			background-color: #ffffff;
 		}
 		body, html {
 		    height: 100%;
-		}
-		ul {
-		    list-style-type: none;
-		    margin: 0;
-		    padding-right: 100px; 
-		    padding: 0;
-		    overflow: hidden;
-		    background-color: #000000;
-		    font-family: "Arial", Helvetica, sans-serif;
-		}
-
-		li {
-		    float: left;
-		}
-
-		li a {
-		    display: block;
-		    color: white;
-		    text-align: center;
-		    padding: 14px 16px;
-		    text-decoration: none;
-		}
-
-		li a: hover {
-		    background-color: #7c0f02;
 		}
 
 		#name{
@@ -71,7 +47,7 @@
 			margin-top: 20%;
 			
 		}
-        #secondHeader{
+        #secondHeader, #projects{
         	font-family: "Georgia", serif;
 			/*position: absolute; */
 			left: 0; 
@@ -81,7 +57,16 @@
 			margin-top: 30px;
 			text-align: center
         }
-
+        #list{
+        	font-family: "Georgia", serif;
+			/*position: absolute; */
+			left: 0; 
+			/*margin-left:490px;*/
+			font-size: 15px;
+			/*color: black;*/
+			margin-top: 30px;
+			text-align: center
+        }
         .p2{
         	font-family: "Georgia", serif;
 			/*position: absolute;*/ 

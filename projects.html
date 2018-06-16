@@ -4,24 +4,63 @@
         <title>Personal WebPage</title>
         <link rel = "stylesheet" href = "styles.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
+            <!--Import Google Icon Font-->
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <!--Import materialize.css-->
+          <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+          <!--Let browser know website is optimized for mobile-->
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+           <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 
     </head>
 
     <body>
         <h1  id = "sname" class="text-align-center">Projects</h1>
         <p id = "sp1"><em>Here is some stuff I've been working on recently.</em></p>
-        <ul >
-            <li><a class="active" href="index.html">About Me</a></li>
-            <li><a class="active" href="projects.html">Projects</a></li>
-            <li><a class="active" href="contact.html">Contact</a></li>
-         
-        </ul>
+        <nav class = "black">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Cindy</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
 
+      <ul class="sidenav black" id="mobile-demo">
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+      </ul>
         <div class="fullscreen-bg">
             <video loop muted autoplay poster="images/pstill-pic.jpg" class="fullscreen-bg__video">           
                 <source src="videos/pbackground-vid.mp4" type="video/mp4">
             </video>
         </div>
+            <p id = "projects">Projects from this year at code next</p>
+           <!--  <ul id = "list">
+              <li>Rock, Paper, Scissors Game</li>
+              <li>Fan Page</li>
+              <li>Alexa Project</li>
+              <li>Personality Quiz</li>
+              <li>Search Engine Project</li>
+              <li>Music Player</li>
+            </ul> -->
+            <div class="collection">
+            <a href="file:///Users/2020cindyh/Desktop/sublime.projects/rock%20paper%20scissors/index.html" class="collection-item black-text">Rock, Paper, Scissors Game</a>
+            <a href="file:///Users/2020cindyh/Desktop/sublime.projects/fanPage/index.html" class="collection-item black-text">Fan Page</a>
+            <a href="file:///Users/2020cindyh/Desktop/sublime.projects/g1-axela-cindy-hernandez/index.html" class="collection-item black-text">Alexa Project</a>
+            <a href="file:///Users/2020cindyh/Desktop/sublime.projects/g1-personality-cindy-hernandez/index.html" class="collection-item black-text">Personality Quiz</a>
+            <a href="file:///Users/2020cindyh/Desktop/sublime.projects/g1-search-cindy-hernandez/index.html" class="collection-item black-text">Search Engine Project</a>
+            <a href="https://gusty-sneeze.glitch.me" class="collection-item black-text">Music Player</a>
+          </div>
 
             <h1 id =  "secondHeader"> My Projects </h1>
 
@@ -30,7 +69,7 @@
         <div style="height:300px; background-color: #ffffff; font-size: 20px; text-align: center; color: black; margin-top: -200px">
                 <br>
                 <h5>Smart Fam</h5>
-                <p style = "margin-left: 150px; margin-right: 150px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p style = "margin-left: 150px; margin-right: 150px">smartfam is an app that makes finding extracurricular programs easier and faster. We give our users access to an organized database of outside-of-school activities supplemented with ratings and reviews.</p>
                 
         </div>
 
@@ -40,7 +79,8 @@
         <div style="height:300px; background-color: #ffffff; font-size: 20px; text-align: center; color: black; margin-top: -200px">
                 <br>
                 <h5>Pet Manager</h5>
-                <p style = "margin-left: 150px; margin-right: 150px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p style = "margin-left: 150px; margin-right: 150px">
+                This is an app that I built using Swift, during my Built By Girls Focus Course at Chapin. This is an app that allows pets users to manage their pets. Based on the pet chosen by the user the app will create a list of certain reminders of things they have to do for that pet with the time they should do it as well. There is also a home page and profile page.(Currently it has no information on it, but eventually it will have photos from other users)</p>
                 
         </div>
 
@@ -50,10 +90,10 @@
         <div style="height:300px; background-color: #ffffff; font-size: 20px; text-align: center; color: black; margin-top: -200px">
                 <br>
                 <h5>Give Back</h5>
-                <p style = "margin-left: 150px; margin-right: 150px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p style = "margin-left: 150px; margin-right: 150px">We all need to give back sometimes and there are so many different people and animals who need our help. This app will help you find certain organization you can donate to based on what you are interested. </p>
                 
         </div>
-
+        <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>
 
 </html>
